@@ -33,3 +33,6 @@ update_configs:
     prefix: "fix"
     prefix_development: "chore"
     include_scope: true
+steps:
+  # Reference the major version of a release
+  - uses: actions/setup-node@v1
