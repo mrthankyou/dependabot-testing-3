@@ -1,0 +1,11 @@
+name: Testing github actions
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+  steps:
+    # Reference the major version of a release
+    - uses: actions/setup-node@v1
