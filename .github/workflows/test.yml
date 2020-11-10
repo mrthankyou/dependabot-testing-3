@@ -9,3 +9,4 @@ jobs:
   steps:
     # Reference the major version of a release
     - uses: actions/setup-node@v1
+    - uses: actions/setup-python@v1.1.1
