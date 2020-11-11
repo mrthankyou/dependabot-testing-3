@@ -5,4 +5,4 @@ update_configs:
     update_schedule: "daily"
   - package_manager: "github_actions"
     directory: "/"
-    update_schedule: "live"
+    update_schedule: "daily"
